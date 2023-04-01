@@ -17,7 +17,7 @@ void main() {
     // assert item is found
     expect(item, findsOneWidget);
 
-    expect(find.text('A'), findsOneWidget);
+    expect(find.text('0'), findsOneWidget);
 
     // Emulate a tap on the tile item.
     await tester.tap(item);
